@@ -1,0 +1,31 @@
+.Logo {
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+}
+
+.NavBar {
+  display: flex;
+  position: fixed;
+  background-color: rgb(234 116 116);
+  width: 100px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  text-align: center;
+}
+
+.NavBar nav ul li {
+  list-style: none;
+}
+
+.NavBar nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar nav ul li:hover {
+  background-color: gray;
+}
